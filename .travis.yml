@@ -3,5 +3,5 @@ services:
   - docker
 
 script:
-  - docker build -t AsT/node .
-  - docker images AsT/node
+  - docker build -t ast/node .
+  - docker images ast/node
