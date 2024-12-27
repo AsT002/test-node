@@ -2,7 +2,6 @@ sudo: required
 services:
   - docker
 
-language: node_js
 script:
   - docker build -t ast/node .
   - docker images ast/node
